@@ -73,7 +73,13 @@ export default class Layout extends Component {
           <a href="https://github.com/raulsebastianmihaila/crizmas-mvc" target="_blank">Github</a>
           <a href="https://www.npmjs.com/package/crizmas-mvc" target="_blank">NPM</a>
         </div>
-        <h1><Logo to="/" /></h1>
+        <h1>
+          <Logo to="/" />
+          {' '}
+          v1 documentation.
+          {' '}
+          <a href="https://raulsebastianmihaila.github.io/crizmas-mvc-docs/" target="_blank">
+            For v2 click here.</a></h1>
       </header>
       <div className="main">
         <ContentsMenu list={contents} router={this.props.router} />
